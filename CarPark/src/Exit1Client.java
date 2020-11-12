@@ -48,10 +48,10 @@ public class Exit1Client {
 		System.out.println("Initialised " + parking_clientName + " client and I/O connections.");
 		
 		
-		// Step 1: The client communicates with the server on key press
-		// Step 2: Key press means that a car arrive at the entrance and request to park in one of the six parking spaces
-		// Step 3: This request will be sent to the server to check if the car park is empty or full 
-		// Step 4: The client will wait for a response from the server.
+		// 1. The client communicates with the server on key press
+		// 2. Key press means that a car arrive at the entrance and request to park in one of the six parking spaces
+		// 3. This request will be sent to the server to check if the car park is empty or full 
+		// 4. The client will wait for a response from the server.
 				
 				
 		// While the enterance1client is live and running listen for an event  

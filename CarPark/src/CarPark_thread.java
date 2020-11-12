@@ -1,13 +1,10 @@
 import java.net.*;
 import java.io.*;
 
-/*
- * Thread initialises new client-server processes, a new thread
- * is created for each client when it connects to the server.
- * 
- */
 
-//
+
+// Creates a new thread for each client that connects to the server.
+// It does this by initialising new client-server processes.
 public class CarPark_thread extends Thread {
 	
 	private Socket parking_clientSocket = null;
